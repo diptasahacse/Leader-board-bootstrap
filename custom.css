@@ -1,0 +1,36 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap');
+:root{
+    --primary-color: #562EFF;
+}
+/* Common Css */
+body{
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Reusable Component */
+.primary-color{
+    color: var(--primary-color);
+}
+.section-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+/* Bootstrap Overwrite Class */
+.container-xxl{
+    width: 96%;
+}
+
+
+
+/* Navbar Background Color */
+.nav-bg-color{
+    background-color: var(--primary-color);
+}
